@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+
+        </div>
+    </div>
+    <div class="next">
+        <main>
+            <section class="section section1">
+                <h1>Full Stack Development</h1>
+                <p>🧱</p>
+                <h2>A level on top of the other.</h2>
+            </section>
+
+            <section class="section section2">
+                <h1>Source Code</h1>
+                <p>* A programer writes a program as a text known as <b>`souce code`</b>. The source code is writen in a carefully defined programming language <b>`programming language`</b>. As any language, programming languages have rules that govern how you write them, these rules are know as <b>`syntax`.</b></p>
+                <p><span>🤖 </span> e.g. some examples of code that achive the same results in different languages of different syntax:</p>
+
+                <div class="somecode">
+                    <div>C#:
+                        <code>Console.Writeline();</code>
+                    </div>
+                    <div>
+                        JavaScript:
+                        <code>Console.log();</code>
+                    </div>
+                    <div>
+                        Python:
+                        <code>print();</code>
+                    </div>
+                    
+                    
+                </div>
+                <p>
+                    * To make it easier to distinguish between source code and plain text, each language
+                    adopts a self-explanatory filename extension: .c for the C language, .py for Python, .js for
+                    JavaScript.
+                </p>
+                <p>
+                    * There are other tools out there for non-programmers to communicate with computers, but writing sourcecode remains the most efficient and effective way to program.
+                </p>
+            </section>
+            
+            <section class="section section3">
+                <h2>Code Editors and IDE</h2>
+                <p>
+                    An <b><em>integrated development environment</em>(IDE)</b> provides a text editor along with tools to help the programmer avoid
+                    syntactic errors and other inconsistencies while writing code. Some examples include, Visual Studio, Atom (possibly discontinued), Sublime Text, etc. These editors are particularly recommended for less
+                    experienced programmers, but experienced programmers use them as well.
+                </p>
+                <p>
+                    watch what the programmer types,
+                    frequently suggesting words to use (autocompletion) and verifying code in real-time.
+                </p>
+                <p>
+                    * Seasoned programmers often choose the 'do-it-yourself' approach and use less help writing their code with less helpful IDEs like Vim or Vi.
+                </p>
+                <p>
+                    <em>(making your life more difficult is the best way to learn difficult things for some individuals.)</em>
+                </p>
+            </section>
+
+            <section class="section section4">
+                <h2>Code Maintenance and Version Control</h2>
+                <p>* Source code is constantly evolving because unforeseen flaws need to be fixed and
+                    enhancements need to be incorporated; therefore, to keep a record of all changes that
+                    occur, it's important to employ some kind of <b><em>version control
+                        system </em>(VCS)</b>
+                </p>
+                <p>* A popular example is <b>`Git`</b>, but Other VCS exist like <b>Subversion</b>, and <b>Mercurial</b></p>
+                <p>
+                    * Version control tools record all changes made to the code and who made the
+                    change, allowing you to trace and eventually recover from an unsuccessful modification.
+                </p>
+                <p>
+                    * Furthermore, version control tools allow each developer on the team to work on a copy of the source
+                    code files without interfering with the work of other programmers. Once the new versions of source
+                    code are ready and tested, corrections or improvements made to one copy can be incorporated by
+                    other team members.
+                </p>
+                <p>
+                    * Several online services offer
+                    storage for repositories of source code. The most popular of these services are <b>GitHub</b>, <b>Gitbucket</b>and <b>GitLab</b>,
+                    but the GNU project's <b>Savannah</b> is also worth mentioning.
+                </p>
+            </section>
+
+            <section class="section section5">
+                <h2>programming Languages and Paradigms</h1>
+                <p>* Paradigm = A pattern, a way of doing something, especially (now often pejorative) a pattern of thought, a system of beliefs, a conceptual framework.</p>
+                <p>* Although programing
+                    languages show superficial differences in syntax and keywords, what really distinguishes the
+                    languages are the deep conceptual approaches they represent, known as <b>paradigms.</b></p>
+                <p>* The programming language is <b><em>procedural</em></b> when the instructions presented in the source code are
+                    executed in sequential order. e.g. C programming.</p>
+                <p>
+                    * On the other hand, the paradigm of <b><em>object-oriented programming</em>(OOP)</b> has as its main characteristic
+                    the separation of the program state into independent sub-states.
+                </p>
+                <p>
+                    * Another paradigm is <b><em>functional programing.</em></b> Functional programing is strongly influenced by mathematical formalism, where every operation is self-
+                    sufficient.
+                </p>
+                <code> <span>🤖 JavaScript e.g.</span>
+                    function cube(side){
+                        return side*side*side;
+                        }
+                        console.log("Volume: " + cube(2));
+                </code>
+                <p>
+                    Another paradigm covers <b>declarative languages</b>, which describe the states you want the system to be
+                    in. A declarative language can figure out how to achieve the specified states. SQL is said to be one of these languages (Instead of you having to code your way to the data, the dat is retrieved by writing query statements.)
+                </p>
+            </section>
+            <section class="section section6">
+                <h2>Compilers and Interpreters</h2>
+                <p>
+                    <b>Interpreted languages</b> and <b>compiled languages</b> are two different approaches to executing computer programs.
+                </p>
+                <p><b>Machine language</b>, also known as machine code, is a low-level programming language that is directly understood by a computer's hardware. Each type of CPU has its own unique machine language that is specific to the hardware architecture.</p>
+                <p><b>A compiler</b> is a program that translates source code written in a programming language into machine language. However not all programming languages are compiled directly into machine language. </p> 
+                <p>
+                    Since machine language is unique to it's hardware architecture some programs
+                are compiled into <b>bytecode</b> which is a low-level instruction set that is executed by a virtual machine reffered to as <b>a runtime</b>, rather than directly by a computer's processor. some examples of these languages are: python, Java, C#, Ruby, and many more.
+                </p>
+                
+
+                   <p><em>Interpreted languages are executed directly from the source code</em>, line by line, without the need for a separate compilation step. In other words, an interpreter reads each line of code and translates it into machine instructions on-the-fly. This makes it easy to write and modify code, as changes take effect immediately. However, the downside is that interpreted languages tend to be slower than compiled languages, as each line of code needs to be translated each time it is executed.
+                </p>
+            </section>
+
+            <section class="section section7">
+                <h2>Web Application Architecture</h2>
+                <h4><span class="brick">🝙</span> Client</h4>
+                <h4>➷➹</h4> 
+                <h4><span class="brick">🝙</span> Browser</h4>
+                <h4>➷➹</h4>
+                <h4><span class="brick">🝙</span> Databases & Database management Systems (DBMS)</h4>
+                <h4>➷➹</h4>
+                <h4><span class="brick">🝙</span> Application Server</h4>
+            </section>
+
+            <section class="section section8">
+                <h2>Clients and Servers</h2>
+                <code class="hardware"><b>The internet is hardware.</b></code>
+                <p>* In the client/server model, part of the work is done locally on the <b><em>client side</em></b> and part of the work is
+                    done remotely, on the <b><em>server side</em></b>.
+                </p>
+                <p><b><em>A client (A computer/phone/browser/application on the phone or computer)</em></b> reffers to the application utilized by the <b><em>user(a person)</em></b> used to request data from a server.</p>
+                <p><b><em>A server</em>(can either be a computer or a program)</b> stores and serves data upon request from the client.</p>
+                <p>* The client application displays an interface for the user to read, interact, or chose what data they would like to consume
+                    , but the data source and the transaction records are kept on the remote server, accessed via the
+                    network. Web applications perform this communication over the Internet, usually via the <b><em>Hypertext Transfer Protocol </em>(HTTP).</b>
+                </p>
+                <p>
+                    * Web application servers offer an <b><em>application programming interface </em>(API)</b> that defines the available requests and how those requests should be made.
+                    Thus, the client constructs a request in the format defined by the API and sends it to the server, which checks
+                    for any prerequisites for the request and sends back the appropriate response.
+                </p>
+            </section>
+            <section class="section section9">
+                <h2>Varieties of Web Clients</h2>
+                <p>
+                    * <b>A browser</b> is a program that makes visible the content of HTML along with the modification of CSS, JavaScript, or other components that makes the page interactive.
+                    Browsers use a <b><em>rendering engine</em></b>. The rendering engine is the main component of the browser, as it is responsible for transforming HTML
+                    and other associated components into the visual and interactive elements of the interface.
+                </p>
+                <p>
+                    * <b><em>A Web Application</em> or Web App</b> is a program accessed by the browser, or packaged as<b> a mobile or desktop application</b>. Unlike the client loaded in the
+                    browser, the HTML and the necessary components for the native client to function are locally
+                    present since the installation of the application. In fact, an application that works this way is
+                    virtually identical to an HTML page (both are even likely to be rendered by the same engine).
+                </p>
+                <p>
+                    * There are also <b><em>progressive web apps </em>(PWA)</b>, a mechanism that allows you to package web application
+                    clients for offline use—limited to functions that do not require immediate communication with the
+                    server.
+                </p>
+                <p>
+                    * Resources that may contain sensitive information, such as access to
+                    local files, geographic location, camera, and microphone, require explicit user authorization before
+                    the application is able to use them. This is done either through the browser or in the settings of the device for mobile ans desktop applications.
+                </p>
+            </section>
+
+            <section class="section section10">
+                <h2>Languages Of a Client [The Frontend Stack]</h2>
+                <img src="images/smb.png" alt="stack of bricks">
+                <p>
+                    * The central element of a web application client that runs on the server is the <b><em>HTML document</em></b> , it presents the interface elements that the browser displays in a structures way and
+                     contains the addresses for all files required for the correct presentation and
+                    operation of the client.
+                </p>
+                <p>
+                    * HTML alone does not have much versatility to build more elaborate interfaces and does not have
+                    general-purpose programming features. For this reason, an HTML document that should function as
+                    a client application is always accompanied by one or more sets of <b>CSS</b> and <b>JavaScript</b>.
+                </p>
+                <p>
+                    * The term <b><code>document</code></b>, for example, is used in JavaScript code to
+                    refer to the HTML document associated with the JavaScript code. In the context of the JavaScript
+                    language, document is a global <b><code>object</code></b> (of a programming class) with properties and methods that can be used to obtain
+                    information from any element on the HTML document.
+                </p>
+            </section>
+
+            <section class="section section11">
+                <h2>Alternatives to JavaScript</h2>
+                <p>
+                    * Javascript is the language of the browser, it can therefore never be replaced without replacing how browsers work. Why would the whole world replace something that works? The answer is 'we wouldn't'.
+                     That being said, it is possible to use other programming languages to create the client side of your application and compile it to JavaScript, which any browser would understand.
+                </p>
+                <p>
+                    * Some examples of languages that can achieve this are: Scala, C#, Ruby, and many more.  
+                </p>
+                <p>
+                    * A feature that significantly improves the performance of JavaScript applications running on the
+                    browser is <b><em>WebAssembly</em></b>. WebAssembly (or WebAssembly language) is a kind of compiled JavaScript that produces source code
+                    written in a more efficient, lower-level language, such as the C language, C++, Rust and Go.
+                </p>
+                <p>
+                    * Technically, any programming language can be compiled to WebAssembly, as long as there is a compiler available that can translate the language's source code into WebAssembly bytecode. These compilers do not exist for every programming language in the world.
+                </p>
+                <p>
+                    * Generally the preffered stack of languages used by a programmer to build the client side user interface is HTML, CSS, and JavaScript.
+                </p>
+            </section>
+
+            <section class="section section12">
+                <h2>Dynamic VS Static Web Applications</h2>
+                <p>
+                    * <b>A dynamic web application</b> is a type of web application that generates content or web pages in real-time. Unlike <b>static web applications</b> that serve pre-existing HTML, dynamic web applications allow for on-the-fly content generation based on user input, database queries, and other dynamic factors.
+                </p>
+                <p>
+                    * Dynamic web applications are capable to populate the viewport (screen) with data that is requested by a user. These requests are made possible by APIs. APIs API can define different methods to identify which procedure the request refers to.
+                    The most common methods are:
+                    <span class="bullets">
+                        <b><code>• Addresses, through a Uniform Resource Locator (URL)</code></b>
+                        <b><code>• Fields in the HTTP header</code></b>
+                        <b><code>• GET/POST methods</code></b>
+                        <b><code>• WebSockets</code></b>
+                    </span>
+                    One method may be more suitable than another, depending on the purpose of the request
+                </p>
+            </section>
+
+            <section class="section section13">
+                <h2>The server Side [The Backend Stack]</h2>
+                <img src="images/briccube.png" alt="">
+            </section>
+
+            <section class="section section14">
+                <h2>HTTP & APIs</h2>
+                <p>
+                    * An API can be built using various programming languages such as JavaScript, Python, Java, Ruby, and many others, and can be accessed by other applications using HTTP requests.
+                    In general, an API provides a way for different software applications to interact with each other.
+                </p>
+                <p>
+                    * APIs use <b><em>HTTP</em> (Hypertext Transfer Protocol)</b> as a communication protocol to transfer data between the client (such as a web browser) and the server (where the API is hosted).
+                </p>
+                <p>
+                    * When a client makes a request to an API endpoint (a specific URL), it sends an HTTP request to the server with a specific method (such as GET, POST, PUT, DELETE) and any necessary parameters or data. The server then processes the request and sends back an HTTP response containing the requested data or an error message if there was a problem.
+                </p>
+                <p>
+                    * ⚠️ The misnomer <b><em>client-side APIs</em></b> does not mean APIs that exist on the client side, and the term `<b><em>designing client APIs</em></b>` does not mean building actual APIs on the client side. 
+                </p>
+                <p>
+                    * The client-side API is actually a set of functions or methods that are typically written in a programming language like JavaScript, and are used to interact with the server-side API through HTTP requests and responses. These functions or methods can be called by client-side code to send requests to the server-side API and process the responses that are received.
+                </p>
+                
+            </section>
+
+            <section class="section section14">
+                <h2>HTTP Requests & Responses</h2>
+                <p>
+                    * <b>HTTP requests</b> have a few different parts that are important for working with APIs:
+                    <span class="bullets">
+                        <code>• <b>Method:</b> the type of request being made (such as <b><em>GET, POST, PUT, DELETE</em></b>).</code>
+                        <code>• <b>Endpoint:</b> the URL where the API can be accessed and the specific resource being requested.</code>
+                        <code>• <b>Headers:</b> additional information about the request, such as the content type and authorization credentials.</code>
+                        <code>• <b>Body (optional):</b> data being sent with the request, such as form data or JSON <b><em>payload</em></b>.</code>
+                    </span>
+                </p>
+                <p>
+                    * <b>HTTP responses</b> also have several important components:
+                    <span class="bullets">
+                        <code>• <b>Status code:</b> a three-digit code that indicates whether the request was successful or not (such as 200 for success or 404 for not found)</code>
+                        <code>• <b>Headers:</b> additional information about the response, such as the content type and caching information</code>
+                        <code>• <b>Body (optional):</b> data being returned by the API, such as JSON or XML payload</code>
+                        <code>• APIs can also use other communication protocols besides HTTP, such as WebSocket or MQTT, but HTTP is the most common protocol used for web APIs.</code>
+                    </span>
+                </p>
+            </section>
+
+            <section class="section section14">
+                <h2>Database Management Systems (DBMS)</h2>
+                <p>
+                    * A <b>database</b> is a collection of data that is organized and stored in a structured manner.
+                </p>
+                <p>
+                    * <b><em>Database Management Systems</em> (DBMS)</b> are software programs that enable users to create, modify, and manage databases.
+                </p>
+                <p>
+                    * Some of the common types of DBMS include <b><em>relational databases</em></b>, <b><em>NoSQL databases</em></b>, and <b><em>object-oriented databases</em></b>.
+                </p>
+                <p>
+                    * Relational databases are the most commonly used type and use tables to organize data. NoSQL databases, on the other hand, use a <b><em>flexible schema</em></b> and do not require predefined tables. Object-oriented databases are designed to work with <b><em>object-oriented programming languages</em></b> and store data as <b><em>objects (instances of a class)</em></b>.
+                </p>
+                <p>
+                    A <b>database connector</b> is a software library that provides an application programming interface (API) for your program (writen in the programming language of your choice) to interact with the DBMS. This way you can use a programming language to manage data in your DBMS.
+                </p>
+            </section>
+        </main>
+        <script src="scripts/date.js"></script>
+    </div>
+</body>
+</html>
